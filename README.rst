@@ -4,23 +4,16 @@ FGH
 About
 -----
 
-This code is a Fortran/Python implementation of Marston's "Fourier Grid
+This notebook is a Python/Cython implementation of Marston's "Fourier Grid
 Hamiltonian" as described in D. Tannor's book "Introduction to Quantum
 Mechanics: a time-dependent perspective". This method allows the computation
 of quantum eigenstates of bound 1d systems.
 
-Usage
------
-
-The Hamiltonian matrix to be diagonalized is computed by a Fortran routine
-(double loop!). The routine can be compiled to a Python extension using
-``f2py`` (command given in the source). The potential definition, sampling,
-diagonalisation and plotting is performed in the Python script ``FGH.py``.
 
 License
 -------
 
-Copyright (c) 2012 Alexander Eberspächer
+Copyright (c) 2012, 2015 Alexander Eberspächer
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
